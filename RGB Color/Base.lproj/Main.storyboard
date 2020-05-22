@@ -140,25 +140,6 @@
                                     </stackView>
                                 </subviews>
                             </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" spacing="237" translatesAutoresizingMaskIntoConstraints="NO" id="4N1-09-qMD">
-                                <rect key="frame" x="22" y="575" width="370" height="31"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dark mode" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pHA-wd-IyK">
-                                        <rect key="frame" x="0.0" y="0.0" width="84" height="31"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="right" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="per-EE-KGR">
-                                        <rect key="frame" x="321" y="0.0" width="51" height="31"/>
-                                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <color key="onTintColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <connections>
-                                            <action selector="switchAction" destination="BYZ-38-t0r" eventType="valueChanged" id="1Yv-Ra-zu7"/>
-                                        </connections>
-                                    </switch>
-                                </subviews>
-                            </stackView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemGrayColor" red="0.5568627451" green="0.5568627451" blue="0.57647058819999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -166,8 +147,6 @@
                                 <variation key="heightClass=compact-widthClass=compact" constant="160"/>
                                 <variation key="heightClass=compact-widthClass=regular" constant="210"/>
                             </constraint>
-                            <constraint firstItem="4N1-09-qMD" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Hej-DQ-5De"/>
-                            <constraint firstItem="4N1-09-qMD" firstAttribute="top" secondItem="did-Q6-F7T" secondAttribute="bottom" constant="44" id="at7-hd-pfm"/>
                             <constraint firstItem="did-Q6-F7T" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="dAK-IA-orX">
                                 <variation key="heightClass=compact-widthClass=compact" constant="20"/>
                                 <variation key="heightClass=compact-widthClass=regular" constant="10"/>
@@ -184,7 +163,6 @@
                         <outlet property="blueNamelabel" destination="pDU-dR-VRN" id="8sr-eS-9ix"/>
                         <outlet property="blueSliderOutlet" destination="zRU-Fl-ixO" id="lMY-GD-crW"/>
                         <outlet property="blueValueLabel" destination="wTh-eT-5Gx" id="8F3-uh-Osj"/>
-                        <outlet property="darkModelabel" destination="pHA-wd-IyK" id="a1O-y8-en3"/>
                         <outlet property="greenNamelabel" destination="XQx-Ot-MXj" id="UIh-J0-nHt"/>
                         <outlet property="greenSliderOutlet" destination="4Jf-PE-lFK" id="Ld6-O9-9Dv"/>
                         <outlet property="greenValueLabel" destination="ipy-TQ-eIT" id="krC-2U-onu"/>
@@ -192,7 +170,6 @@
                         <outlet property="redSliderOutlet" destination="uo9-mY-irE" id="Chs-6M-3lN"/>
                         <outlet property="redValueLabel" destination="4Ic-NQ-Nkl" id="qbo-Nv-fba"/>
                         <outlet property="screenView" destination="MEB-Vv-Wlu" id="fWl-H2-N3C"/>
-                        <outlet property="switchOutlet" destination="per-EE-KGR" id="7Ak-L4-LAl"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -221,7 +198,7 @@
     </scenes>
     <resources>
         <namedColor name="whiteMode">
-            <color red="0.87059807779999998" green="0.8665639758" blue="0.87451869250000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+            <color red="0.87099999189376831" green="0.86699998378753662" blue="0.875" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
         </namedColor>
     </resources>
 </document>
