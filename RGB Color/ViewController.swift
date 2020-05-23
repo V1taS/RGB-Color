@@ -32,7 +32,7 @@ class ViewController: UIViewController {
         roundingValues()
     }
     
-    // MARK: - Default setting viewDidLoad
+    // MARK: - Default setting viewDidLoad 
     private func setDefaultSetting() {
         
         redLabel.text = String(redSlider.value)
